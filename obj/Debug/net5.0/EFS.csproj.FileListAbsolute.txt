@@ -1,0 +1,16 @@
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/EFS
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/EFS.deps.json
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/EFS.runtimeconfig.json
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/EFS.runtimeconfig.dev.json
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/EFS.dll
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/ref/EFS.dll
+/home/tony-medici/Projects/EFS/bin/Debug/net5.0/EFS.pdb
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.csproj.AssemblyReference.cache
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.GeneratedMSBuildEditorConfig.editorconfig
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.AssemblyInfoInputs.cache
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.AssemblyInfo.cs
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.csproj.CoreCompileInputs.cache
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.dll
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/ref/EFS.dll
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.pdb
+/home/tony-medici/Projects/EFS/obj/Debug/net5.0/EFS.genruntimeconfig.cache
