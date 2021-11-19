@@ -122,6 +122,118 @@ namespace EFS
                 Console.WriteLine("This convertion did not happen.");
             }
 
+
+            /*
+                Operators:
+                - Arithmetic
+                - Comparison
+                - Assignment
+                - Logical
+                - Bitwise
+            */
+
+
+            /* Arithmetic: 
+                - Addition (+)
+                - Subtraction (-)
+                - Multiplication (*)
+                - Divisiopn (/)
+                - Remainder (%)
+                - Increment (++)    a++ is equivalent to a = a + 1 
+
+                    
+                        Postfix Increment: Here reassignment happens before increment below
+                        int a = 1;
+                        int b = a++;
+
+                        Thu sinn execution a = 2, b = 1.
+
+
+                        Prefix Increment: Here increment happens before reassignment below
+                        int a = 1;
+                        int b = ++a;
+                    
+
+                - Decrement (--)    a-- is equivalent to a = a - 1
+            */
+
+
+            /*
+                Comparison Operators
+
+                - Equal (==)
+                - Not Equal (!=)
+                - Greater Than (>)
+                - Greater Than or Equal To (>=)
+                - Less Than (<)
+                - Less Than or Equal To (<=)
+            */
+
+            /*
+                Assignment Operators
+
+                - Assignment (=) lik a = 1
+                - Addition Assignment (+=) like where a = a + 3 is reduced to a += 3
+                - Subtraction Assignment (-=)
+                - Multiplication Assignment (*=)
+                - Division Assignment (/=)
+            */
+
+            /*
+                Logical Operators:
+                 Used in boolean expressions, which are often used in conditional statements,
+                 most times to chec if two conditions are true or if either is.
+
+                - And (&&)
+                - Or (||)
+                - Not (!)
+            */
+
+            /*
+                Bit wise Oprators: Often used in low level programming(Windows API, Sockets, Encrption).
+                - And (&)
+                - Or (|)
+            */
+
+
+            // Addition
+            int ten = 10;
+            int twenty = 20;
+
+            
+            Console.WriteLine("Adding {0} and {1} is equal to:  {2}", ten, twenty, ten + twenty);
+            Console.WriteLine("Subtracting {0} and {1} is equal to:  {2}", ten, twenty, ten - twenty);
+            Console.WriteLine("Multiplying {0} and {1} is equal to:  {2}", ten, twenty, ten * twenty);
+
+            // In division I can cast the output to floating numbers to prevent data ;oss
+            Console.WriteLine("Dividing {0} and {1} is equal to:  {2}", ten, twenty, (float)ten / (float)twenty);
+
+            /*
+                Operator Precedence:
+                a + b * c:
+                Multiplication and Division operators have higher precedence.
+                To change that we can use parenthesis to tell C# what to evaluate first.
+            */
+
+            int c = 2;
+
+            Console.WriteLine(ten + twenty * c); // ANswer is 50
+            Console.WriteLine();
+            Console.WriteLine((ten + twenty) * c); // ANswer is 60
+
+
+            /*
+                Comparison Operators
+                THe result of comparing two values is always a boolean
+            */
+
+            Console.WriteLine(ten > twenty); // False
+            Console.WriteLine(ten == twenty); // False
+            Console.WriteLine(ten < twenty); // True
+            Console.WriteLine(ten >= twenty); // False
+            Console.WriteLine(ten <= twenty); // True
+            Console.WriteLine(ten != twenty); // False
+            Console.WriteLine(!(ten > twenty)); // True
         }
     }
 }
